@@ -13,6 +13,22 @@ You will need NXP's [MCU-Link Pro Debug Probe](https://www.nxp.com/design/design
 ## Modifying the NXP Board for Debugging
 
 Follow NXP's getting started instructions: [Getting Started with FRDM-IMX93 and MCU-LINK Pro for M Core Debugging](https://community.nxp.com/t5/i-MX-Processors-Knowledge-Base/Getting-Started-with-FRDM-IMX93-and-MCU-LINK-Pro-for-M-Core/ta-p/2108089):
+
+{{% notice macOS %}}
+
+Step "Install Segger Firmware on MCU-LINK Pro" requires replacing a firmware file, whose macOS location is undocumented:
+
+* On Windows, the firmware location is:
+  ```
+  C:\nxp\LinkServer_1.6.133\MCU-LINK_installer\probe_firmware
+  ```
+* On macOS, after installing [LinkServer](https://www.nxp.com/design/design-center/software/development-software/mcuxpresso-software-and-tools-/linkserver-for-microcontrollers:LINKERSERVER), the firmware location will be:
+  ```
+  /Applications/LinkServer_25.7.33/MCU-LINK_installer/probe_firmware
+  ```
+
+{{% /notice %}}
+
 * You will need to do soldering in section "Rework the FRDM-IMX93 Board".
 * Flip over the boad and remove the glass panel, to gain access to the Bluetooth / UART5 resistors.
 
