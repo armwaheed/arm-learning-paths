@@ -72,8 +72,6 @@ Use a Docker container to build ExecuTorch:
      ```bash
      docker start 0123456789ab
      docker exec -it 0123456789ab /bin/bash
-     # Output will be the Docker container prompt
-     root@0123456789ab:/#
      ```
 
 {{% /notice %}}
