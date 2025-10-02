@@ -145,7 +145,7 @@ Now you will build the `.pte` file, that will be used on the NXP board.
 
   {{% notice macOS %}}
   Increase the "Memory Limit" in Docker settings to 12 GB: 
-  ![Increase the "Memory Limit" in Docker settings to 12 GB alt-text#center](./Increase%20the%20Memory%20Limit%20to%2012%20GB.jpg "Increase the Memory Limit in Docker settings to 12 GB")
+  ![Increase the "Memory Limit" in Docker settings to 12 GB alt-text#center](./increase-the-memory-limit-to-12-gb.jpg "Increase the Memory Limit in Docker settings to 12 GB")
 
   {{% /notice %}}
 

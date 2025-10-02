@@ -34,7 +34,7 @@ Step "Install Segger Firmware on MCU-LINK Pro" requires replacing a firmware fil
 
 <center>
   <video width="800" height="400" controls>
-    <source src="/learning-paths/embedded-and-microcontrollers/observing-ethos-u-on-nxp/NXP%20Board%20Soldering%20Location.mp4" type="video/mp4">
+    <source src="/learning-paths/embedded-and-microcontrollers/observing-ethos-u-on-nxp/nxp-board-soldering-location.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <br>
@@ -43,7 +43,7 @@ Step "Install Segger Firmware on MCU-LINK Pro" requires replacing a firmware fil
 
 * Here is a brief explanation of the electical schematic of the two resistors that you need to remove:
 
-  ![NXP JTAG-to-UART5 Electrical Schematic alt-text#center](./NXP%20JTAG%20UART5%20Electrical%20Schematic.png "NXP JTAG-to-UART5 Electrical Schematic")
+  ![NXP JTAG-to-UART5 Electrical Schematic alt-text#center](./nxp-jtag-uart5-electrical-schematic.png "NXP JTAG-to-UART5 Electrical Schematic")
 
   * R3017 and R3018 are 0-ohm resistors (i.e., jumpers used for routing).
   * They’re connecting JTAG signals (W2_JTAG_TMS, Y1_JTAG_TCK) to UART5 control lines (RTS and CTS).
@@ -52,6 +52,6 @@ Step "Install Segger Firmware on MCU-LINK Pro" requires replacing a firmware fil
 
 * This is what the board looks like, once you have removed the two resistos.
 
-![NXP Board Resistors Removed alt-text#center](./NXP%20Board%20Resistors%20Removed.png "NXP Board Resistors Removed")
+![NXP Board Resistors Removed alt-text#center](./nxp-board-resistors-removed.png "NXP Board Resistors Removed")
 
 * Complete all of the remaining instructions, to ensure that Visual Studio Code can connect to the NXP debug probe and board.

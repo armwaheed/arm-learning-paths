@@ -36,7 +36,7 @@ For a full tutorial on building ExecuTorch please see learning path [Introductio
    {{% notice macOS %}}
 
    Increase the "Swap" space in Docker settings to 4 GB: 
-   ![Increase the swap space in Docker settings to 4 GB alt-text#center](./Increase%20Swap%20Space%20to%204%20GB.jpg "Increase the swap space in Docker settings to 4 GB")
+   ![Increase the swap space in Docker settings to 4 GB alt-text#center](./increase-swap-space-to-4-gb.jpg "Increase the swap space in Docker settings to 4 GB")
 
    {{% /notice %}}
 

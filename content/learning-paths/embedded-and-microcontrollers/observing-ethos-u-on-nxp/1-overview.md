@@ -16,11 +16,11 @@ Selecting the best hardware for machine learning (ML) models depends on effectiv
 *Unboxing NXP's FRDM i.MX 93 board*
 </center>
 
-![NXP FRDM i.MX 93 Board SoC Highlighted alt-text#center](./NXP%20FRDM%20i.MX%2093%20Board%20SoC%20Highlighted.png "Arm Ethos-U65 NPU location")
+![NXP FRDM i.MX 93 Board SoC Highlighted alt-text#center](./nxp-frdm-imx-93-board-soc-highlighted.png "Arm Ethos-U65 NPU location")
 
 ### NXP's FRDM i.MX 93 Processor Decoded
 
-![i.MX 93 Processor SoC alt-text#center](./i.MX%2093%20Application%20Processor%20SoC.png "NXP's FRDM i.MX 93 processor")
+![i.MX 93 Processor SoC alt-text#center](./imx-93-application-processor-soc.png "NXP's FRDM i.MX 93 processor")
 
 **NXP's Processor Labeling Convention:**
 |Line|Meaning|
@@ -35,7 +35,7 @@ Selecting the best hardware for machine learning (ML) models depends on effectiv
 
 The [MCU-Link Pro Debug Probe](https://www.nxp.com/design/design-center/software/software-library/mcu-link-pro-debug-probe:MCU-LINK-PRO) is a debugging tool for NXP boards. NXP's [MCUXpresso Integrated Development Environment (IDE)](https://www.nxp.com/design/design-center/software/development-software/mcuxpresso-software-and-tools-/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE) depends on this debug probe, when deploying ExecuTorch models to the above FRDM i.MX 93 board.
 
-![NXP MCU-Link Pro Debug Probe alt-text#center](./MCU-LINK-PRO-GUIDE-IMG.jpg "NXP's MCU-Link Pro Debug Probe")
+![NXP MCU-Link Pro Debug Probe alt-text#center](./mcu-link-pro-guide-img.jpg "NXP's MCU-Link Pro Debug Probe")
 
 ## Software Overview - NXP's MCUXpresso IDE
 
