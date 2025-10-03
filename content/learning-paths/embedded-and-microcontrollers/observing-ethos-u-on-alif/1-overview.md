@@ -31,6 +31,10 @@ Selecting the best hardware for machine learning (ML) models depends on effectiv
 |B4ADKA 2508|• B4ADKA - Assembly site & line identifier<br>• 2508 - year + week of manufacture (Week 08 of 2025)|
 |UASA37002.000.03|• UASA37002 - Identifies the silicon mask set<br>• .000.03 - means revision 3 of that mask|
 
+## Software Overview - Alif SETOOLS
+
+The [Alif Security Toolkit](https://swrm.alifsemi.com/Content/3.4%20SETOOLS.htm?TocPath=Secure%20Enclave%20Subsystem%7C_____4) (SETOOLS) contains utlities for working with the Alife Ensemble E8 board. You will install this later in this learning path on the following page: [Install Alif SETOOLS](/learning-paths/embedded-and-microcontrollers/observing-ethos-u-on-alif/3-install-setools/).
+
 ## Software Overview - TinyML
 
 This Learning Path uses TinyML. TinyML is machine learning tailored to function on devices with limited resources, constrained memory, low power, and fewer processing capabilities.
